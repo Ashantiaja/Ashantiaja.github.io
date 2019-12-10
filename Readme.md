@@ -2,6 +2,8 @@
 ## Project Description
 This holds HW3 for UNR CS 330 Fall 2019. To exhibit the MVC design pattern, the web app will simulate keeping a class roster.
 
+The project will supposedly be hosted on github.com
+
 ## Assignment:
 Build any web application you like, using the MVC design pattern. You may use whatever Technology you like ...
 
