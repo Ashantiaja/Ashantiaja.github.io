@@ -2,8 +2,8 @@
 import java.lang.reflect.*;
 import java.io.FileNotFoundException;
 
-//import static spark.Spark.*;
-
+//import static spark.Spark.*; // Taken from documentation with the assumption that spark is INSTALLED
+import spark.*;
 
 
 public class ConsoleTest {
@@ -28,10 +28,9 @@ public class ConsoleTest {
 	System.out.println("Loading students from roster.txt");
 	control.loadRosterFromFile("roster.txt");
 	control.displayRoster();
+
+	get("/hello", (req, res) -> "Hellow World");
 	
     }
 
-    public void loadRosterFromFile(String inputFile, Roster r) {
-
-    }
 }

@@ -3,7 +3,6 @@ import java.lang.reflect.*;
 import java.io.FileNotFoundException;
 
 //import static spark.Spark.*;
-import spark.*;
 
 public class ConsoleTest {
     
@@ -28,9 +27,5 @@ public class ConsoleTest {
 	control.loadRosterFromFile("roster.txt");
 	control.displayRoster();
 	
-    }
-
-    public void loadRosterFromFile(String inputFile, Roster r) {
-
     }
 }
